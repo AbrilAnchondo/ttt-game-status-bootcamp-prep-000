@@ -62,7 +62,7 @@ WIN_COMBINATIONS = [
    if !won?(board)
      return nil
     else
-      if won?(board)[0] = "X"
+      if board[won?(board)[0]] = "X"
        return "X"
      else
        return "O"
