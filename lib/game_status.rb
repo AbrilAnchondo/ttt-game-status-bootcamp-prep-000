@@ -68,8 +68,6 @@ WIN_COMBINATIONS = [
       won?(board) && won?(board).all? {|i| i = "O"}
        return "O"
    end 
- 
-   
-  end
+ end
     
   
