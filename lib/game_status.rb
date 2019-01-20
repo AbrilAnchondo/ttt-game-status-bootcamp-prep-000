@@ -66,7 +66,6 @@ WIN_COMBINATIONS = [
        return "O"
       else 
          return "X"
-       
       end
     end
  end
