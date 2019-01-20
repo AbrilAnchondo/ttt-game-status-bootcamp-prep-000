@@ -58,7 +58,7 @@ WIN_COMBINATIONS = [
    #if won?(board).all? {|i| i = "X"}
      #return "X"
    #end
-   winning_array = [] 
+   
    if won?(board) && win_commo.all? {|i| i = "X"}
      return "X"
    end 
