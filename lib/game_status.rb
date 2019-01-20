@@ -59,8 +59,8 @@ WIN_COMBINATIONS = [
      #return "X"
    #end
    
-   if won?(board) && win_commo.all? {|i| i = "X"}
-     return "X"
+   if !won?(board)
+     return nil
    end 
   end
     
