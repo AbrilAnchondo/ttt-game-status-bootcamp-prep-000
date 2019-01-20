@@ -51,8 +51,12 @@ WIN_COMBINATIONS = [
   end
 
   def winner(board)
-   #if won?(board).all? {|i| i = "O"}
-    # return "O"
+   if won?(board).all? {|i| i = "O"}
+     return "O"
+   end
+   if won?(board).all? {|i| i = "X"}
+     return "X"
+   end
     
    
   end
