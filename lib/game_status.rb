@@ -64,10 +64,9 @@ WIN_COMBINATIONS = [
     else
       if board[won?(board)[0]] = "O"
        return "O"
-       
-       if board[won?(board)[0]] = "X"
+      else 
          return "X"
-       end
+       
       end
     end
  end
