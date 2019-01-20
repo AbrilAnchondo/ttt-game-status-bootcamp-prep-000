@@ -64,7 +64,8 @@ WIN_COMBINATIONS = [
       elsif 
        won?(board) && won?(board).all? {|i| i = "X"}
        return "X"
-     else 
+      elsif 
+      won?(board) && won?(board).all? {|i| i = "O"}
        return "O"
    end 
  
