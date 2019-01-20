@@ -64,8 +64,7 @@ WIN_COMBINATIONS = [
     else
       if won?(board)[0] = "X"
        return "X"
-       elsif
-       won?(board).all? {|i| i = "O"}
+     else
        return "O"
       end
     end
