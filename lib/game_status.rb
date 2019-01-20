@@ -67,7 +67,7 @@ WIN_COMBINATIONS = [
        
       
    end 
- else 
+ 
    return "O"
   end
     
