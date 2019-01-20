@@ -62,9 +62,13 @@ WIN_COMBINATIONS = [
    if !won?(board)
      return nil
       end 
-      if 
-       won?(board) && won?(board).all? {|i| i = "X"}
+    if 
+      won?(board) && won?(board).all? {|i| i = "X"}
        return "X"
+       elsif
+       won?(board) && won?(board).all? {|i| i = "O"}
+       return "O"
+     end
    end 
  end
     
